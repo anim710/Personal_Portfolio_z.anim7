@@ -1,0 +1,51 @@
+/* =========================================
+   variables.css — Design Tokens
+   Edit these to retheme the entire portfolio
+   ========================================= */
+
+:root {
+  /* === COLORS === */
+  --bg-primary:      #030a0f;
+  --bg-secondary:    #060f17;
+  --bg-card:         #0a1825;
+  --bg-card-hover:   #0d1f2e;
+
+  --accent-primary:  #00d4ff;
+  --accent-secondary:#0088cc;
+  --accent-glow:     rgba(0, 212, 255, 0.35);
+  --accent-glow-soft:rgba(0, 212, 255, 0.12);
+
+  --neon-cyan:       #00d4ff;
+  --neon-blue:       #0044ff;
+  --neon-purple:     #7b2fff;
+
+  --text-primary:    #e8f4f8;
+  --text-secondary:  #7ab8cc;
+  --text-muted:      #3d6475;
+  --text-dim:        #1e3a4a;
+
+  --border-color:    rgba(0, 212, 255, 0.18);
+  --border-glow:     rgba(0, 212, 255, 0.55);
+
+  /* === TYPOGRAPHY === */
+  --font-display:    'Orbitron', sans-serif;
+  --font-body:       'Rajdhani', sans-serif;
+  --font-mono:       'Share Tech Mono', monospace;
+
+  /* === SPACING === */
+  --section-pad:     120px;
+  --section-pad-sm:  70px;
+  --card-radius:     8px;
+  --nav-height:      70px;
+
+  /* === EFFECTS === */
+  --glow-sm:   0 0 10px var(--accent-glow);
+  --glow-md:   0 0 25px var(--accent-glow), 0 0 50px rgba(0,212,255,0.15);
+  --glow-lg:   0 0 40px var(--accent-glow), 0 0 80px rgba(0,212,255,0.2), 0 0 120px rgba(0,212,255,0.08);
+  --shadow-card: 0 4px 30px rgba(0,0,0,0.6);
+
+  /* === TRANSITIONS === */
+  --transition-fast:   0.2s ease;
+  --transition-med:    0.35s cubic-bezier(0.4,0,0.2,1);
+  --transition-slow:   0.6s cubic-bezier(0.4,0,0.2,1);
+}
