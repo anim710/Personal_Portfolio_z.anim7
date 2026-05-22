@@ -111,6 +111,48 @@
   animation: slideInRight 0.9s ease 0.6s forwards;
 }
 
+
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 11px 26px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 2px;
+  color: var(--text-secondary);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--card-radius);
+  background: transparent;
+  transition: var(--transition-med);
+  width: fit-content;
+}
+
+.resume-btn i {
+  color: var(--accent-primary);
+  font-size: 0.85rem;
+  animation: pulse 2s ease infinite;
+}
+
+.resume-btn-tag {
+  font-size: 0.62rem;
+  padding: 2px 7px;
+  background: var(--accent-glow-soft);
+  border: 1px solid var(--accent-primary);
+  border-radius: 3px;
+  color: var(--accent-primary);
+  letter-spacing: 1px;
+}
+
+.resume-btn:hover {
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  border-style: solid;
+  box-shadow: var(--glow-sm);
+  transform: translateY(-2px);
+}
+
 .avatar-container {
   position: relative;
   width: 340px;
